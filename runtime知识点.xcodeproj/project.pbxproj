@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		465BACC21FC6B11C00B7BBFC /* UIView+SQBView.m in Sources */ = {isa = PBXBuildFile; fileRef = 465BACC11FC6B11C00B7BBFC /* UIView+SQBView.m */; };
+		467159F51FC7FEDA00DC174A /* UIViewController+Traking.m in Sources */ = {isa = PBXBuildFile; fileRef = 467159F41FC7FEDA00DC174A /* UIViewController+Traking.m */; };
 		46B575BD1FC52C5000B7D91D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B575BC1FC52C5000B7D91D /* AppDelegate.m */; };
 		46B575C01FC52C5000B7D91D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B575BF1FC52C5000B7D91D /* ViewController.m */; };
 		46B575C31FC52C5000B7D91D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46B575C11FC52C5000B7D91D /* Main.storyboard */; };
@@ -15,6 +17,7 @@
 		46B575CB1FC52C5000B7D91D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B575CA1FC52C5000B7D91D /* main.m */; };
 		46B575D51FC52C5000B7D91D /* runtime___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B575D41FC52C5000B7D91D /* runtime___Tests.m */; };
 		46B575E01FC52C5000B7D91D /* runtime___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B575DF1FC52C5000B7D91D /* runtime___UITests.m */; };
+		46B575EF1FC55E8000B7D91D /* MyObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B575EE1FC55E8000B7D91D /* MyObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		465BACC01FC6B11C00B7BBFC /* UIView+SQBView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+SQBView.h"; sourceTree = "<group>"; };
+		465BACC11FC6B11C00B7BBFC /* UIView+SQBView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+SQBView.m"; sourceTree = "<group>"; };
+		467159F31FC7FEDA00DC174A /* UIViewController+Traking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Traking.h"; sourceTree = "<group>"; };
+		467159F41FC7FEDA00DC174A /* UIViewController+Traking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Traking.m"; sourceTree = "<group>"; };
 		46B575B81FC52C5000B7D91D /* runtime知识点.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "runtime知识点.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46B575BB1FC52C5000B7D91D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		46B575BC1FC52C5000B7D91D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +58,8 @@
 		46B575DB1FC52C5000B7D91D /* runtime知识点UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "runtime知识点UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46B575DF1FC52C5000B7D91D /* runtime___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "runtime___UITests.m"; sourceTree = "<group>"; };
 		46B575E11FC52C5000B7D91D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46B575ED1FC55E8000B7D91D /* MyObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyObject.h; sourceTree = "<group>"; };
+		46B575EE1FC55E8000B7D91D /* MyObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +114,12 @@
 				46B575BC1FC52C5000B7D91D /* AppDelegate.m */,
 				46B575BE1FC52C5000B7D91D /* ViewController.h */,
 				46B575BF1FC52C5000B7D91D /* ViewController.m */,
+				467159F31FC7FEDA00DC174A /* UIViewController+Traking.h */,
+				467159F41FC7FEDA00DC174A /* UIViewController+Traking.m */,
+				465BACC01FC6B11C00B7BBFC /* UIView+SQBView.h */,
+				465BACC11FC6B11C00B7BBFC /* UIView+SQBView.m */,
+				46B575ED1FC55E8000B7D91D /* MyObject.h */,
+				46B575EE1FC55E8000B7D91D /* MyObject.m */,
 				46B575C11FC52C5000B7D91D /* Main.storyboard */,
 				46B575C41FC52C5000B7D91D /* Assets.xcassets */,
 				46B575C61FC52C5000B7D91D /* LaunchScreen.storyboard */,
@@ -266,7 +281,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				46B575C01FC52C5000B7D91D /* ViewController.m in Sources */,
+				465BACC21FC6B11C00B7BBFC /* UIView+SQBView.m in Sources */,
 				46B575CB1FC52C5000B7D91D /* main.m in Sources */,
+				467159F51FC7FEDA00DC174A /* UIViewController+Traking.m in Sources */,
+				46B575EF1FC55E8000B7D91D /* MyObject.m in Sources */,
 				46B575BD1FC52C5000B7D91D /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
